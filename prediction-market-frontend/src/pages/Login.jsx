@@ -173,17 +173,6 @@ export default function Login() {
             </Button>
           </form>
 
-          <div className="notice notice--info mt-4">
-            <span className="notice__icon">
-              <IconAlert size={16} />
-            </span>
-            <span className="tiny">
-              <strong>Seeded accounts</strong>
-              Player: <code>demo</code> / <code>demo123</code> &nbsp;&middot;&nbsp; Admin:{' '}
-              <code>admin</code> / <code>admin123</code>
-            </span>
-          </div>
-
           <p className="auth-card__foot">
             New here? <Link to="/register">Create an account</Link>
           </p>
